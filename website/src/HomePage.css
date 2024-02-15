@@ -1,0 +1,55 @@
+
+.home--container{
+    background-image: url("./images/img-3.jpg");
+    background-size: "cover";
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
+.home--text, .home--photo {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+}
+
+.home--text {
+    width: 60%;
+    justify-content: center;
+    text-align: right; /* Align text to the right */
+}
+
+.home--photo {
+    width: 40%;
+    justify-content: center;
+    align-items: right; /* Center the photo if it's smaller than the div */
+}
+
+.home--text > h1, h2, h3 {
+    margin-left: 0%;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+
+.home--text > h1, h2 {
+    color: #ffff;
+    font-size: 100px;
+    margin-top: 50px;
+}
+
+.home--text > h3 {
+    color:#ffff;
+    font-size: 80px;
+    margin-top: 50px;
+}
+
+.home--photo > img{
+    visibility: visible;
+    margin-top: 50px;
+    margin-right: 20%;
+    width: 100%;
+}
